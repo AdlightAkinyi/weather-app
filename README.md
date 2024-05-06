@@ -6,4 +6,5 @@ Javascript
 CSS
 HTML
 
-# Live site: https://myweather-site.netlify.app/
+# Live sited
+ https://myweather-site.netlify.app/
