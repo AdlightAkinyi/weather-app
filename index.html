@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+          <style>
+                    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+input[type="text"] {
+          font-size: 16px;
+          border-radius: 5px;
+          
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+
+}
+.weather-card {
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+    margin-bottom: 20px;
+}
+
+
+.icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+
+
+}
+          </style>
+    <div class="container" >
+      <p>
+         <h1> Weather App</h1>
+      </p>
+         <div class="search-container">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-btn" style="background-color: blue; font-size: 15px; padding-left: 40px;padding-right: 40px;margin-bottom: 30px; border-radius: 20px;">Search</button>
+    </div>
+        <div class="weather-card">
+            <div class="weather-info">
+                <h2 class="city"></h2>
+                <p class="temperature"></p>
+                <p class="description"></p>
+            </div>
+            <div class="icon"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
